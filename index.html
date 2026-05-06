@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secret Surprise 🎁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔐 LOCK SCREEN -->
+<div id="lockScreen">
+    <h2>Enter Password 🔐</h2>
+    <input type="password" id="password" placeholder="Hint: your nickname">
+    <button onclick="checkPassword()">Unlock</button>
+</div>
+
+<!-- 🎉 MAIN CONTENT -->
+<div id="mainContent" class="hidden">
+
+    <h1 id="typing"></h1>
+    <canvas id="confetti"></canvas>
+
+    <!-- 🎥 FIRST VIDEO -->
+    <div class="event">
+        🎒 First video of yours I clicked 😄 <br>
+        <video width="250" controls>
+            <source src="GSK1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- 📸 SLIDER -->
+    <div class="slider">
+
+        <div class="slide active">
+            <img src="GSK1.jpeg">
+            <div class="caption">This was at Saavishkar when i forced you for a pic together 😄</div>
+        </div>
+
+        <div class="slide">
+            <img src="GSK2.jpeg">
+            <div class="caption">That crazy laughing moment on dandeli trip when that anna asked us to look at each other and smile 😂</div>
+        </div>
+
+        <div class="slide">
+            <img src="GSK3.jpeg">
+            <div class="caption">Even this was trip pic!! ❤️</div>
+        </div>
+
+        <div class="slide">
+            <img src="GSK4.jpeg">
+            <div class="caption">I want to thank you for all the amazing memories we've created together ❤️</div>
+        </div>
+
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
+
+    </div>
+
+    <h1>💌 A Important Message For You</h1>
+
+<div class="message">
+    <p>
+        I just wanted to say something very important... ❤️ <br><br>
+
+        Thank you for being in my life.
+        Through all the chaos, laughter, and memories.
+
+        Tumba jana idr gsk they are jealous of our friendship.
+        Nang avrgella torsbek avr tara fake alla namd friendship ankond..
+        yelru heltr gsk avn nin jothe tumba dina irudila avn friendship fake ankond...
+        fake alla anth nang prove madbek gsk..
+        College mugdru ning hosa best friend sikkidru nand nenp bidbeda gsk please.. <br><br>
+        And I hope we continue to create more amazing memories together. <br><br>
+        Happy Birthday once again, Gsk! 🎂❤️
+    </p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
